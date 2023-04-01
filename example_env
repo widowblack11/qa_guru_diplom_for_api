@@ -1,0 +1,10 @@
+LOGIN = *****
+PASSWORD= ******
+LOCAL_DEMOQA = localhost:5555
+TEST_DEMOQA = http://your_test_demoqa_env.com
+TEST2_DEMOQA=http://your_test2_demoqa_env.com
+PROD_DEMOQA=https://demowebshop.tricentis.com
+LOCAL_REQRESIN = localhost:5555
+TEST_REQRESIN = http://your_test_demoqa_env.com
+TEST2_REQRESIN=http://your_test2_demoqa_env.com
+PROD_REQRESIN=https://reqres.in
