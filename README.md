@@ -77,7 +77,7 @@ pytest . --env=prod || true
 ##### Во вкладке Behaviors находятся собранные тест кейсы, у которых описаны шаги. Для api методов реализованы вложения.
 ![Behaviors](images/report_behaviors.jpg)
 В проекте используется встроенный logger - logging:
-![This is an image](images/logs.png)
+![This is an image](images/logs.jpg)
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
 ![Graf](images/testops.jpg)
 
