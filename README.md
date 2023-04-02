@@ -5,6 +5,8 @@
 <code><img width="5%" title="Pycharm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png"></code>
 <code><img width="5%" title="Pytest" src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg"></code>
 <code><img width="5%" title="Selene" src="https://fs.getcourse.ru/fileservice/file/download/a/159627/sc/264/h/e0cabcb69a2df1e6b1086292c020a4a7.png"></code>
+<code><img width="5%" title="Selenium" src="http://www.loadview-testing.com/wp-content/uploads/Selenium_Logo-1.png"></code>
+<code><img width="5%" title="Selenoid" src="https://aerokube.com/selenoid/latest/img/og-image.jpg"></code>
 <code><img width="5%" title="Requests" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Requests_Python_Logo.png"></code>
 <code><img width="5%" title="Allure Report" src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4"></code>
 <code><img width="5%" title="Allure TestOps" src="https://marketplace-cdn.atlassian.com/files/92e2d8c3-2a30-46c0-bf21-2453a4a270d3?fileType=image&mode=full-fit"></code>
@@ -74,8 +76,12 @@ pytest . --env=prod || true
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете.
 ![Overview](images/report.jpg)
 
-##### Во вкладке Behaviors находятся собранные тест кейсы, у которых описаны шаги. Для api методов реализованы вложения.
+##### Во вкладке Behaviors находятся собранные тест кейсы, у которых описаны шаги. Для api методов реализованы вложения. Для комбинированных тестов по окончанию теста делается скриншот и сохраняется видеозапись теста.
 ![Behaviors](images/report_behaviors.jpg)
+
+##### Видео теста просмотра данных пользователя, авторизация происходит по api, проверка полей и данных через ui.
+![This is an image](images/test_ui.gif)
+
 В проекте используется встроенный logger - logging:
 ![This is an image](images/logs.jpg)
 ##### Так же вся отчетность сохраняется в Allure TestOps, где строятся аналогичные графики.
